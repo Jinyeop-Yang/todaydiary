@@ -46,6 +46,7 @@ class UserDetailView(APIView):
 @swagger_auto_schema(methods=['post'], request_body=CheckEmailSerializer)
 @api_view(['POST'])
 def check_email(request):
+    print('e')
     email = request.data.get('email', None)
     exist = User.objects.filter(email=email).exists()
     if exist:

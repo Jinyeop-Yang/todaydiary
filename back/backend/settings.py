@@ -232,10 +232,10 @@ AUTH_USER_MODEL = "accounts.User"
 
 if not DEBUG:
     CORS_ORIGIN_WHITELIST = [
-    'https://k3d104.p.ssafy.io',
-    'https://k3d104.p.ssafy.io:8000',
-    'https://k3d104.p.ssafy.io:8001',
-    'https://k3d104.p.ssafy.io:8002',
+    'https://app.todaydiary.me',
+    'https://app.todaydiary.me:8000',
+    'https://app.todaydiary.me:8001',
+    'https://app.todaydiary.me:8002',
     'http://127.0.0.1'
     ]
 
@@ -243,7 +243,6 @@ if not DEBUG:
         'localhost',
         '127.0.0.1',
         ]
-
     DATABASES = {
     'default': {
         'ENGINE': setting['DATABASE_ENGINE'],
