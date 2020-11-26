@@ -9,8 +9,8 @@ from django.conf import settings
 
 
 class TextAnalysis:
-
-    mecab = Mecab(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'NLP', 'mecab', 'mecab-ko-dic'))
+    
+    mecab = Mecab('/usr/local/lib/mecab/dic/mecab-ko-dic')
     emotion_idx = {
         'happy': 1, 'sad': 2, 'delight': 3, 'boring': 4, 'angry': 5, 'surprise': 6, 'horror': 7
     }
