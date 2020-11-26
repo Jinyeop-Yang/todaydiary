@@ -1,22 +1,21 @@
-<img src="./front/src/assets/images/로고1.png" style="height: 200px; border: 1px solid gray;">
+<img src="./front/src/assets/images/로고1.png" height="200">
 
 # 오늘 하루
 
 나만의 일기를 작성할 수 있는 공간을 제공하고, 그 내용을 바탕으로 그날의 감정을 분석해서 하루를 마무리할 수 있는 음악을 추천해주는 ***감정관리 모바일 일기 서비스*** 입니다.
 
-[<img src="./front/src/assets/images/로고1.png" style="height: 50px; border: 1px solid black;">](https://app.todaydiary.me/) 👈 바로가기
+[<img src="./front/src/assets/images/로고1.png" height="50">](https://app.todaydiary.me/) 👈 바로가기
 
 
 
 - 목차
 
-  1. [주요 기능](#주요 기능)
-  2. [기술 스택](#기술 스택)
-
-  3. [시스템 구성](#시스템 구성)
-     1. [화면 구성](#화면 구성)
-     2. [ERD](#ERD)
-     3. [아키텍쳐](#Architecture)
+  1. [주요 기능](#주요-기능)
+  2. [기술 스택](#기술-스택)
+  3. [시스템 구성](#시스템-구성)
+     1. [화면 구성](#화면-구성)
+     2. [ERD](#erd)
+     3. [아키텍쳐 ](#architecture)
 
 
 
@@ -34,11 +33,11 @@
 
 ### 3. 일기 작성
 
-- 일기 작성 시 함께 남기고 싶은 이미지를 함께 저장할 수 있습니다. <img src="./back/images/emotion/weather/11.png" style="height: 25px">
-- 이미지를 첨부하면, 제공되는 스티커를 이용해 꾸밀 수 있습니다. <img src="./back/images/emotion/face/happy.png" style="height: 25px">
-- 작성 전 내용과 스티커를 이용해 그날의 감정을 분석하고, 음악을 추천해 줍니다. <span style="background-color: #e9ecef; border-radius: 50%;"><img src="./front/src/assets/images/emotion/3.png" style="height: 30px;"></span>
+- 일기 작성 시 함께 남기고 싶은 이미지를 함께 저장할 수 있습니다. <img src="./back/images/emotion/weather/11.png" height="25">
+- 이미지를 첨부하면, 제공되는 스티커를 이용해 꾸밀 수 있습니다. <img src="./back/images/emotion/face/happy.png" height="25">
+- 작성 전 내용과 스티커를 이용해 그날의 감정을 분석하고, 음악을 추천해 줍니다. <span style="background-color: #e9ecef; border-radius: 50%;"><img src="./front/src/assets/images/emotion/3.png" height="30"></span>
 
-- 작성페이지에서 🎵 아이콘을 이용해 YouTube에서 원하는 음악을 넣을 수 도 있습니다. <img src="./back/images/emotion/whiteman/happy.png" style="height: 25px">
+- 작성페이지에서 🎵 아이콘을 이용해 YouTube에서 원하는 음악을 넣을 수 도 있습니다. <img src="./back/images/emotion/whiteman/happy.png" height="25">
 
 ### 4. 분석
 
@@ -54,16 +53,16 @@
 ## 기술 스택
 
 - ### Back-end
-  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/12785093741551942290-512.png" style="height: 30px;"> **Python 3.6**
-  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/9686895801536233213-512.png" style="height: 30px;"> **Django 2.2**
-  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/19218518301553750371-512.png" style="height: 35px;"> **MySQL 8.0**
-  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/7752079241551942292-512.png" style="height: 30px;">  **Redis**
-  - <img src="https://konlpy-ko.readthedocs.io/ko/v0.4.3/_static/konlpy.png" style="height: 35px;"> **Mecab 형태소 분석**
+  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/12785093741551942290-512.png" height="30"> **Python 3.6**
+  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/9686895801536233213-512.png" height="30"> **Django 2.2**
+  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/19218518301553750371-512.png" height="35"> **MySQL 8.0**
+  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/7752079241551942292-512.png" height="30">  **Redis**
+  - <img src="https://konlpy-ko.readthedocs.io/ko/v0.4.3/_static/konlpy.png" height="35"> **Mecab 형태소 분석**
 
 - ### Front-end
 
-  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/191213921552037062-512.png" style="height: 30px;"> **Vue.js 2.6**
-  - <img src="https://raw.githubusercontent.com/konvajs/konvajs.github.io/master/apple-touch-icon-180x180.png" style="height: 35px;"> **Konva.js**
+  - <img src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/191213921552037062-512.png" height="30"> **Vue.js 2.6**
+  - <img src="https://raw.githubusercontent.com/konvajs/konvajs.github.io/master/apple-touch-icon-180x180.png" height="35"> **Konva.js**
 
 
 
