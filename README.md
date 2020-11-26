@@ -76,7 +76,7 @@
 
   #### 2. 일기 작성/조회
 
-  <img src="./images/screen3.png" style="width: 33%;"> <img src="./images/screen4.png" style="width: 33%;"><img src="./images/screen5.png" style="width: 33%;">
+  <img src="./images/screen3.png" width="33%"> <img src="./images/screen4.png" width="33%"><img src="./images/screen5.png" width="33%">
 
    #### 3. 음악 플레이어
 
