@@ -72,19 +72,19 @@
 
   #### 1. 메인
 
-  ​	![main](./images/screen1.png) ![main_login](./images/screen2.png)
+  <img src="./images/screen1.png" width="45%"> <img src="./images/screen2.png" width="45%">
 
   #### 2. 일기 작성/조회
 
-  <img src="./images/screen3.png" width="30%"> <img src="./images/screen4.png" width="30%"><img src="./images/screen5.png" width="30%">
+  <img src="./images/screen3.png" width="30%"> <img src="./images/screen4.png" width="30%"> <img src="./images/screen5.png" width="30%">
 
-   #### 3. 음악 플레이어
+  #### 3. 음악 플레이어
 
-  ![playlist](./images/screen6.png) ![player](./images/screen7.png)
+  <img src="./images/screen6.png" width="45%"> <img src="./images/screen7.png" width="45%">
 
   #### 4. 분석
 
-  ![wordcloud](./images/screen8.png) ![graph](./images/screen9.png)
+  <img src="./images/screen8.png" width="45%"> <img src="./images/screen9.png" width="45%">
 
   
 
