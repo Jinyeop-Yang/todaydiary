@@ -29,7 +29,7 @@
 
 ### 2. 카카오 로그인
 
-	- 카카오 로그인을 사용해 가입, 로그인이 간편합니다. <img src="https://developers.kakao.com/tool/resource/static/img/button/login/simple/ko/kakao_login_medium.png" style="height: 25px;">
+- 카카오 로그인을 사용해 가입, 로그인이 간편합니다. <img src="https://developers.kakao.com/tool/resource/static/img/button/login/simple/ko/kakao_login_medium.png" style="height: 25px;">
 
 ### 3. 일기 작성
 
